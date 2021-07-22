@@ -1,4 +1,5 @@
-p {
+
+.title {
     position: absolute;
     width: 306px;
     height: 47px;
@@ -34,10 +35,10 @@ hr {
     margin-bottom: 52px;
 }
 
-.container-support a {
+.container-support p {
     font-size: 24px;
-    margin-right: 78px;
-    margin-left: 77px;
+    margin: 0 78px 0 77px;
+    text-align: center;
 }
 
 .container-communication {
@@ -52,9 +53,10 @@ hr {
     margin: 8px 107px 56px 105px;
 }
 
-.container-communication a {
+.container-communication p {
     font-size: 24px;
-    margin: 0 32px 2px 32px;
+    margin: 0 32px 0 32px;
+    text-align: center;
 }
 
 .container-booking {
@@ -69,9 +71,10 @@ hr {
     margin: 16px 98px 64px 98px;
 }
 
-.container-booking a {
+.container-booking p {
     font-size: 24px;
-    margin: 0 64px 8px 64px;
+    margin: 0 80px 0 90px;
+    text-align: center;
 }
 
 .container-reviews {
@@ -86,7 +89,7 @@ hr {
     margin: 4px 102px 60px 102px;
 }
 
-.container-reviews a {
+.container-reviews p {
     font-size: 24px;
-    margin: 0 35px 7px 36px;
+    margin: 0 50px 7px 50px;
 }
