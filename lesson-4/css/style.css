@@ -1,0 +1,95 @@
+
+.title {
+    position: absolute;
+    width: 306px;
+    height: 47px;
+    left: 567px;
+    right: 567px;
+    top: 120px;
+    font-size: 40px;
+    margin: 0;
+}
+
+hr {
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    left: 670px;
+    top: 187px;
+    border: 0;
+    margin: 0;
+    background: #F5BD41;
+}
+
+.container-support {
+    position: absolute;
+    width: 296px;
+    height: 176px;
+    left: 104px;
+    top: 271px;
+}
+
+.container-support img {
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 52px;
+}
+
+.container-support p {
+    font-size: 24px;
+    margin: 0 78px 0 77px;
+    text-align: center;
+}
+
+.container-communication {
+    position: absolute;
+    width: 296px;
+    height: 178px;
+    left: 416px;
+    top: 271px;
+}
+
+.container-communication img {
+    margin: 8px 107px 56px 105px;
+}
+
+.container-communication p {
+    font-size: 24px;
+    margin: 0 32px 0 32px;
+    text-align: center;
+}
+
+.container-booking {
+    position: absolute;
+    width: 296px;
+    height: 184px;
+    left: 728px;
+    top: 271px;
+}
+
+.container-booking img {
+    margin: 16px 98px 64px 98px;
+}
+
+.container-booking p {
+    font-size: 24px;
+    margin: 0 80px 0 90px;
+    text-align: center;
+}
+
+.container-reviews {
+    position: absolute;
+    width: 296px;
+    height: 183px;
+    left: 1041px;
+    top: 271px;
+}
+
+.container-reviews img {
+    margin: 4px 102px 60px 102px;
+}
+
+.container-reviews p {
+    font-size: 24px;
+    margin: 0 50px 7px 50px;
+}
