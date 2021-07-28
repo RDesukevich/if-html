@@ -37,7 +37,7 @@ hr {
     background: #F5BD41;
 }
 
-#advantages {
+.advantages {
     width: 1233px;
     height: 184px;
     font-family: Roboto, sans-serif;
@@ -97,7 +97,7 @@ footer {
     height: 630px;
 }
 
-.footer {
+.container {
     width: 1065px;
     height: 310px;
     padding: 119px 272px 64px 104px;
