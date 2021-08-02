@@ -144,3 +144,107 @@ footer span {
     font-size: 14px;
     padding-left: 103px;
 }
+
+.container-head {
+    background-image: url("../images/castelmezzano.svg");
+    padding: 51px 104px 157px 104px;
+}
+
+.nav span {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    padding-right: 24px;
+}
+
+.nav img {
+    padding-left: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-head h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 156px;
+    margin-bottom: 100px;
+}
+
+.page {
+    margin-top: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#city {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: 3px solid #F3F3F4;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 467px;
+    height: 64px;
+}
+
+#people {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: 3px solid #F3F3F4;
+    border-radius: 8px;
+    text-align: center;
+    width: 314px;
+    height: 61px;
+}
+
+#date {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 280px;
+    height: 64px;
+    border: 3px solid #F5BD41;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#search {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #3077C6;
+    border-radius: 8px;
+    width: 192px;
+    height: 70px;
+    border: 0;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 24px;
+    margin-right: 197px;
+}
+
+.sprites {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.sprites img {
+    padding-right: 16px;
+}
