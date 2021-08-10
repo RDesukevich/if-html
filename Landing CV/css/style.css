@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto-medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/roboto-regular.woff2") format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    color: #3D3B3C;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+}
+
+.container-head {
+    margin-left: 104px;
+    margin-right: 106px;
+    height: 608px;
+    margin-bottom: 72px;
+}
+
+header {
+    font-weight: 400;
+    font-size: 24px;
+    height: 68px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+li:first-child {
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 500;
+    margin-top: 72px;
+    margin-bottom: 8px;
+}
+
+.article-about-title {
+    color: #BEBEBE;
+    font-size: 56px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.article-about-description {
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 72px;
+    line-height: 26px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    padding-top: 72px;
+}
+
+button {
+    background-color: #3A4576;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    width: 185px;
+    height: 56px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.suggestions {
+    background: #FAFAFA;
+    height: 579px;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
+}
+
+.suggestions--heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+}
+
+.suggestions__col {
+     margin: 0 24px 0 0;
+}
+
+.suggestions__img-wrap {
+    padding-top: 54px;
+}
+
+.row {
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-bottom: 73px;
+}
+
+.suggestions-more {
+    display: flex;
+    justify-content: center;
+}
+
