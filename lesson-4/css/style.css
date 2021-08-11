@@ -20,7 +20,7 @@ body {
     height: 569px;
 }
 
-._center {
+.what-do-we-offer--title {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 40px;
@@ -318,7 +318,7 @@ label {
         height: 641px;
     }
 
-    ._center {
+    .what-do-we-offer--title {
         font-size: 28px;
         padding-top: 24px;
     }
