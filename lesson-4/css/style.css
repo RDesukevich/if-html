@@ -21,20 +21,44 @@ body {
     height: 569px;
 }
 
-.what-do-we-offer--title {
+.header__link {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 24px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+}
+
+.heading--what-do-we-offer {
     font-weight: 500;
     font-size: 40px;
     margin: 0;
     display: flex;
     justify-content: center;
     padding-top: 120px;
+    position: relative;
 }
 
-hr {
+h2 {
+    position: relative;
+}
+
+h2:before {
+    content: "";
+    position: absolute;
     width: 100px;
     height: 4px;
-    border: 0;
     background: #F5BD41;
+    top: 190px;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+}
+
+h2:hover:before {
+    transform: scale(1);
 }
 
 .what-do-we-offer_col {
@@ -46,7 +70,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 103px 114px 104px;
+    padding: 104px 103px 114px 104px;
 }
 
 .container-support {
@@ -177,20 +201,6 @@ a:nth-child(1n+3) {
     padding-left: 24px;
 }
 
-a:nth-child(1) {
-    font-size: 24px;
-    color: #ffffff;
-    padding-right: 24px;
-    text-decoration: none;
-}
-
-a:nth-child(2) {
-    font-size: 24px;
-    color: #ffffff;
-    padding-right: 24px;
-    text-decoration: none;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -206,9 +216,33 @@ nav {
     height: 40px;
 }
 
-nav a:hover {
-    text-decoration: underline #F5BD41;
+.header__link {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 24px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
 }
+
+.header__link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #F5BD41;
+    left: 0;
+    top: 40px;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+}
+
+.header__link:hover:before {
+    transform: scale(1);
+}
+
 
 header {
     display: flex;
@@ -307,17 +341,14 @@ label {
     background-color: #EAF0F9;
 }
 
-.heading {
+.heading--homes-guests-loves {
     font-weight: 500;
     font-size: 40px;
     margin: 0;
-}
-
-.heading--homes-guests-loves {
     padding-top: 120px;
-    padding-bottom: 104px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .homes-guest-loves__text {
@@ -338,6 +369,7 @@ label {
     justify-content: space-between;
     margin-right: 101px;
     margin-left: 104px;
+    padding-top: 104px;
 }
 
 .homes-guests-loves__col {
