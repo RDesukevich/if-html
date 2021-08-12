@@ -82,10 +82,6 @@ article {
     justify-content: space-between;
 }
 
-img {
-    padding-top: 72px;
-}
-
 button {
     background-color: #3A4576;
     color: #FFFFFF;
@@ -115,17 +111,14 @@ button {
 }
 
 .suggestions__col {
-     margin: 0 24px 0 0;
-}
-
-.suggestions__img-wrap {
-    padding-top: 54px;
+    margin: 0 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .row {
-    margin-left: 105px;
-    margin-right: 105px;
-    margin-bottom: 73px;
+    margin: 54px 105px 73px 105px;
 }
 
 .suggestions-more {
@@ -133,3 +126,42 @@ button {
     justify-content: center;
 }
 
+.suggestions_rating img {
+    padding-top: 51px;
+    padding-right: 9px;
+}
+
+.suggestions_rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestions__text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img--html {
+    padding-bottom: 19px;
+}
+
+.img--css {
+    padding-bottom: 19px;
+}
+
+.img--sass {
+    padding-bottom: 44px;
+}
+
+.img--git {
+    padding-top: 15px;
+    padding-bottom: 54px;
+}
+
+.img--javascript {
+    padding-bottom: 43px;
+}
+
+.img--github {
+    padding-bottom: 22px;
+}
