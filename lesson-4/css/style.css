@@ -12,6 +12,13 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/open-sans-semibold.woff2") format('woff2');
+    font-style: normal;
+    font-weight: 600;
+}
+
 body {
     margin: 0;
     font-family: Roboto, sans-serif;
@@ -487,6 +494,125 @@ label {
     display: none;
 }
 
+/* Block: Guest Reviews */
+
+.heading--guest-reviews {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.row_guest-reviews {
+    margin: 104px 104px 120px 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guest-reviews__col {
+    background: #EAF0F9;
+}
+
+.guest-reviews__text {
+    margin: 24px 24px 0 24px;
+}
+
+.guest-reviews__container-price {
+    background: #000;
+    height: 48px;
+    opacity: 0.4;
+    position: absolute;
+    top: 4121px;
+    width: 400px;
+    color: #FFFFFF;
+}
+
+.price {
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 11px;
+}
+
+.guest-reviews__text--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guest-reviews__place-premises {
+    font-weight: 500;
+    font-size: 18px;
+    color: #3077C6;
+    margin: 0;
+}
+
+.guest-reviews__place-country {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 16px 0 0 0;
+    color: #3077C6;
+}
+
+.guest-reviews__score-reviews {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background: #10367C;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 0 35px;
+}
+
+.guest-reviews__count-reviews {
+    font-weight: 400;
+    font-size: 14px;
+    color: #BFBFBF;
+    margin-top: 8px;
+}
+
+.guest-reviews__person {
+    display: flex;
+    margin-top: 24px;
+}
+
+.guest-reviews__person-container {
+    margin-left: 21px;
+}
+
+.guest-reviews__person-name {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 7px 0;
+}
+
+.guest-reviews__person-country {
+    font-weight: 400;
+    font-size: 18px;
+    color: #BFBFBF;
+}
+
+.guest-reviews__description {
+    margin-top: 17px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.guest-reviews__slider {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 3955px;
+    left: 1395px;
+}
+
+.guest-reviews__nav {
+    display: none;
+}
+
 @media screen and (max-width: 360px) {
     .what-do-we-offer {
         height: 641px;
@@ -719,8 +845,6 @@ label {
     }
 
     .row__destinations {
-        display: flex;
-        justify-content: space-between;
         margin: 24px 15px 40px 17px;
     }
 
@@ -755,7 +879,9 @@ label {
     .sign-up {
         margin: 0;
         height: 106px;
-        background: #EAF0F9;
+        background: none;
+        position: absolute;
+        top: 3393px;
     }
 
     .sign-up__img-close {
@@ -803,6 +929,108 @@ label {
         font-size: 14px;
         color: #3077C6;
         text-decoration: none;
+    }
+
+    .container--img-rokoko {
+        display: none;
+    }
+
+    .container--img-king-kong {
+        display: none;
+    }
+
+    .heading--guest-reviews {
+        font-weight: 500;
+        font-size: 28px;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .row_guest-reviews {
+        margin: 32px 16px 0 18px;
+        display: block;
+    }
+
+    .guest-reviews__col {
+        background: none;
+    }
+
+    .guest-reviews__img {
+        width: 327px;
+        height: 325px;
+    }
+
+    .guest-reviews__text {
+        margin: 12px 0 0 0;
+    }
+
+    .guest-reviews__container-price {
+        display: none;
+    }
+
+    .guest-reviews__place-premises {
+        font-size: 15px;
+    }
+
+    .guest-reviews__place-country {
+        font-size: 15px;
+        margin: 8px 0 0 0;
+    }
+
+    .guest-reviews__score-reviews {
+        font-size: 15px;
+    }
+
+    .guest-reviews__count-reviews {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .guest-reviews__person {
+        margin-top: 12px;
+    }
+
+    .guest-reviews__person-container {
+        margin-left: 13px;
+    }
+
+    .guest-reviews__person-name {
+        font-size: 15px;
+        margin: 0 0 4px 0;
+    }
+
+    .guest-reviews__person-country {
+        font-size: 15px;
+    }
+
+    .guest-reviews__description {
+        margin-top: 17px;
+        font-size: 15px;
+        margin-bottom: 32px;
+    }
+
+    .guest-reviews__slider {
+        display: none;
+    }
+
+    .guest-reviews__person img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .guest-reviews {
+        background: #EAF0F9;
+        margin-bottom: 106px;
+    }
+
+    .guest-reviews__nav {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .guest-reviews__nav-img {
+        padding-right: 8px;
     }
 }
 
