@@ -390,6 +390,7 @@ label {
     background: #F3F3F4;
     width: 238px;
     height: 64px;
+    text-overflow: clip;
 }
 
 .row__destinations {
@@ -485,6 +486,20 @@ label {
 
 .sign-up--slogan_media {
     display: none;
+}
+
+@media screen and (max-width: 1232px) {
+    .container--img-island {
+        display: none;
+    }
+
+    .container--img-norway {
+        display: none;
+    }
+
+    .row--tabs {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -703,6 +718,8 @@ label {
         height: 32px;
         overflow: hidden;
         text-overflow: clip;
+        padding-top: 4px;
+        padding-left: 11px;
     }
 
     .destinations__img {
