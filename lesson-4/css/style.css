@@ -613,6 +613,23 @@ label {
     display: none;
 }
 
+@media screen and (max-width: 1232px) {
+    .container--img-rokoko {
+        display: none;
+    }
+
+    .row_guest-reviews {
+        max-width: 816px;
+        margin: auto;
+        margin-top: 104px;
+        margin-bottom: 120px;
+    }
+
+    .guest-reviews__slider {
+        left: 809px;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .what-do-we-offer {
         height: 641px;
