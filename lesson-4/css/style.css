@@ -380,13 +380,24 @@ label {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 1340px;
+    left: 1354px;
     top: 1854px;
 }
 
-.homes-guests-loves__img {
-    width: 100%;
+@media screen and (max-width: 1232px) {
+    .container--villa-kunerad {
+        display: none;
+    }
+
+    .container--hostel-friendship {
+        display: none;
+    }
+
+    .homes-guests-loves__slider {
+        left: 703px;
+    }
 }
+
 
 @media screen and (max-width: 360px) {
     .what-do-we-offer {
