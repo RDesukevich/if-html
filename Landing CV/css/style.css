@@ -98,16 +98,13 @@ button {
     height: 579px;
 }
 
-.heading {
-    font-weight: 500;
-    font-size: 50px;
-    margin: 0;
-}
-
 .suggestions--heading {
     display: flex;
     justify-content: center;
     padding-top: 72px;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
 }
 
 .suggestions__col {
