@@ -62,8 +62,7 @@ h2:hover:before {
 }
 
 .what-do-we-offer_col {
-    width: 1233px;
-    height: 184px;
+    max-width: 1233px;
     font-weight: 400;
     font-size: 24px;
     margin: auto;
@@ -142,9 +141,8 @@ footer {
 }
 
 .container {
-    width: 1065px;
-    height: 310px;
-    padding: 119px 272px 64px 104px;
+    max-width: 1065px;
+    padding: 119px 27px 64px 104px;
     display: flex;
     justify-content: space-between;
 }
@@ -194,7 +192,7 @@ footer img {
     background-image: url("../images/castelmezzano.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 51px 104px 157px 104px;
+    padding: 51px 104px 120px 104px;
 }
 
 a:nth-child(1n+3) {
@@ -367,21 +365,27 @@ label {
 .row {
     display: flex;
     justify-content: space-between;
-    margin-right: 101px;
-    margin-left: 104px;
+    padding-right: 101px;
+    padding-left: 104px;
     padding-top: 104px;
+    max-width: 1237px;
+    margin: auto;
 }
 
 .homes-guests-loves__col {
-    margin: 0;
+    margin: 0 16px 0 0;
 }
 
 .homes-guests-loves__slider {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 1400px;
-    top: 1887px;
+    left: 1340px;
+    top: 1854px;
+}
+
+.homes-guests-loves__img {
+    width: 100%;
 }
 
 @media screen and (max-width: 360px) {
@@ -528,8 +532,8 @@ label {
     .row {
         display: flex;
         justify-content: space-between;
-        margin-right: 15px;
-        margin-left: 17px;
+        padding-right: 15px;
+        padding-left: 17px;
         padding-top: 32px;
     }
 
@@ -542,7 +546,7 @@ label {
         width: 28px;
         height: 28px;
         left: 328px;
-        top: 2119px;
+        top: 2083px;
     }
 
     .homes-guests-loves__img {
