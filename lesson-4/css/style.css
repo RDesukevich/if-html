@@ -321,7 +321,7 @@ label {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 30%;
+    top: 33%;
     left: 93%;
 }
 
@@ -842,6 +842,10 @@ footer span {
     .container--guest-reviews {
         padding: 120px 30px;
     }
+
+    .container--footer {
+        padding: 119px 272px 120px 92px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -862,6 +866,11 @@ footer span {
 
     .container--img-king-kong {
         display: none;
+    }
+
+    .guest-reviews__container-price {
+        height: 50px;
+        top: 48%;
     }
 }
 
@@ -939,7 +948,6 @@ footer span {
 
     .button--regions {
         width: 20%;
-        /* margin-right: 10px; */
         margin-right: 16px;
     }
 
@@ -1034,6 +1042,13 @@ footer span {
         padding-top: 32px;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 455px){
+
+    .guest-reviews__slider {
+        display: none;
     }
 }
 
@@ -1251,6 +1266,11 @@ footer span {
         text-decoration: none;
     }
 
+    .sign-up {
+        position: absolute;
+        top: 2714px;
+    }
+
     /* Block: guest-reviews */
 
     .guest-reviews {
@@ -1345,13 +1365,6 @@ footer span {
     .guest-reviews__person img {
         width: 44px;
         height: 44px;
-    }
-
-    /* Block: sign-up */
-
-    .sign-up {
-        position: absolute;
-        top: 2714px;
     }
 }
 
