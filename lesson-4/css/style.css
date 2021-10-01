@@ -1050,6 +1050,16 @@ footer span {
     .guest-reviews__slider {
         display: none;
     }
+
+    .guest-reviews__container-price {
+        top: 44%;
+        }
+    .guest-reviews__img {
+        width: 371px;
+    }
+    .container--img-rokoko {
+        width: 371px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -1298,6 +1308,7 @@ footer span {
 
     .guest-reviews__col {
         background: none;
+        width: auto;
     }
 
     .guest-reviews__slider, .guest-reviews__container-price {
@@ -1423,5 +1434,32 @@ footer span {
     h2:hover:before {
         transform: scale(1);
 
+    }
+}
+
+
+@media all and (max-width: 345px) {
+    .sign-up {
+        display: none;
+    }
+    .container--guest-reviews {
+        padding-bottom: 46px;
+        width: 300px;
+    }
+
+    .guest-reviews__img {
+        width: 300px;
+    }
+
+    ul :first-child {
+        font-size: 13px;
+    }
+
+    .destinations__img-wrap {
+        width: 140px;
+    }
+
+    .homes-guests-loves__img-wrap {
+        width: 140px;
     }
 }
